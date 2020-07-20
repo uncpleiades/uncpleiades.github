@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 0;
+    margin-top: 0;
+    background-image: url("argyle pattern.png");
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    width: 100vw;
+}
+
+nav {
+    background-color: #7498D1;
+    color: white;
+}
+
+nav h1{
+    font-family: roboto mono;
+    font-size: 2em;
+    color: white;
+}
+
+nav h1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+nav h1 a:hover{
+    color:rgb(228, 238, 255);
+    text-decoration: none;
+}
+
+
+
+.stars {
+    width: 100px;
+}
+
+nav ul li a{ 
+    height: 50px;
+    padding: 15px;   
+    text-decoration: none;
+    font-family: roboto;
+    color:#ffffff;
+    font-size: 20px; 
+    margin: 0 .7em;   
+}
+
+
+nav ul li a:visited{
+    color: #FFFFFF;
+}
+
+nav ul li a:hover{
+    color:rgb(228, 238, 255);
+    transition-delay: .2s;
+}
+
+.fas {
+    color: white;
+}
+
+.schedule-container{
+    background:white;
+    margin: 3em;
+    padding: 3em;
+    color: #262B53;
+    border: #7498D1;
+    border-style: solid;
+    box-shadow: 5px 5px 20px #7498D1;
+}
+
+.schedule-container h1 {
+    text-align: center;
+    font-family: roboto mono;
+    color:  #262B53;
+
+}
+
+.schedule-container h2{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2em;
+    color:  #262B53;
+    margin: 10px 0 30px; 
+}
+.schedule-container p {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.schedule-container h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color:  #262B53;
+    margin: 40px 0 15px;
+}
+.schedule-column {
+    margin: 0em;
+    background-color: white;
+}
+

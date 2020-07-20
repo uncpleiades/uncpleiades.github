@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0 0;
+    margin-top: 0;
+    background-image: url("argyle pattern.png");
+    font-family: 'Roboto', sans-serif;
+}
+.container-fluid {
+    padding: 0;
+}
+.site-header {
+    background-color: #7498D1;
+}
+
+nav {
+    background-color: #7498D1;
+    color: white;
+}
+
+
+
+
+nav h1{
+    font-family: roboto mono;
+    font-size: 2em;
+    color: white;
+}
+
+nav h1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+
+}
+
+nav h1 a:hover{
+    color:rgb(228, 238, 255);
+    text-decoration: none;
+}
+
+
+
+.stars {
+    width: 100px;
+}
+
+nav ul li a{  
+   
+    height: 50px;
+    padding: 15px;
+    text-decoration: none;
+    font-family: roboto;
+    color:#ffffff;
+    font-size: 20px;
+    margin: 0 .7em;    
+
+    
+}
+
+
+nav ul li a:visited{
+    color: #FFFFFF;
+}
+
+nav ul li a:hover{
+    color:rgb(228, 238, 255);
+    transition-delay: .2s;
+}
+
+.fas {
+    color: white;
+}
+
+.fas:hover {
+    color:rgb(228, 238, 255);
+}
+
+.rosterTitle {
+    text-align: center;
+    font-family: roboto mono;
+    color:  #262B53;
+    align-self: center; 
+    margin: .7em 0;
+}
+
+
+h2 {
+    text-align: center;
+    font-family: roboto;
+    color:  #262B53;
+    font-size: medium;
+}
+
+
+.cardBackground {
+    background-color: white;
+    margin: 3em;
+    padding: 0 1em 1em;
+    border: #7498D1;
+    border-style: solid;
+    box-shadow: 5px 5px 20px #7498D1;
+}
+
+
+.site-footer {
+    background-color:  #7498D1;
+}
+.card-body {
+    background-color:rgb(228, 238, 255); 
+    padding: 1em;
+}
+
+.card {
+    border: 5px rgb(228, 238, 255);
+    border-style: solid;
+    border-radius: 0;
+}
+.card img {
+    border: 5px rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 0;
+}
