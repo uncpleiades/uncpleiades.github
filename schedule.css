@@ -7,10 +7,12 @@ body{
     margin-top: 0;
     background-image: url("argyle pattern.png");
     font-family: 'Roboto', sans-serif;
+    height: 100vh;
 }
 
 .wrapper {
     width: 100vw;
+    
 }
 
 nav {
@@ -67,6 +69,7 @@ nav ul li a:hover{
 
 .schedule-container{
     background:white;
+    min-height: 65.2vh;
     margin: 3em;
     padding: 3em;
     color: #262B53;
@@ -84,6 +87,7 @@ nav ul li a:hover{
 
 .schedule-container h2{
     text-align: center;
+    
     font-family: 'Roboto', sans-serif;
     font-size: 2em;
     color:  #262B53;

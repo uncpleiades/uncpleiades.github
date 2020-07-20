@@ -97,8 +97,31 @@ form button {
     background-color:#262B53;
     margin-top: 1em;
     color: white;
+    font-family: roboto mono;
+}
+
+form label {
+    
+
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #262B53;
 }
 
 form button:hover {
     background-color: #7498D1;
+    
+}
+
+form input {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #262B53;
+}
+
+form input::placeholder {
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #262B53;
 }

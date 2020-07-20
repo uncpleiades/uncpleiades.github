@@ -93,31 +93,48 @@ h2 {
 }
 
 
-.cardBackground {
-    background-color: white;
+.roster-container{
+    background:white;
+    min-height: 65.2vh;
     margin: 3em;
-    padding: 0 1em 1em;
+    padding: 3em;
+    color: #262B53;
     border: #7498D1;
     border-style: solid;
     box-shadow: 5px 5px 20px #7498D1;
 }
 
+.roster-container h1 {
+    text-align: center;
+    font-family: roboto mono;
+    color:  #262B53;
 
-.site-footer {
-    background-color:  #7498D1;
-}
-.card-body {
-    background-color:rgb(228, 238, 255); 
-    padding: 1em;
 }
 
-.card {
-    border: 5px rgb(228, 238, 255);
-    border-style: solid;
-    border-radius: 0;
+.roster-container h2{
+    text-align: center;
+    
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color:  #262B53;
+    margin: 10px 0 30px; 
 }
-.card img {
-    border: 5px rgb(255, 255, 255);
-    border-style: solid;
-    border-radius: 0;
+.roster-container p {
+    font-size: 1.2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    color: #262B53;
+    text-align: center;
+}
+
+.roster-container h3 {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+    color:  #262B53;
+    margin: 40px 0 15px;
+}
+.roster-column {
+    margin: 0em;
+    background-color: white;
 }
