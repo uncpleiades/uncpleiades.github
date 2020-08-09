@@ -9,14 +9,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
 .wrapper {
-    padding: 0;
+    padding: 0;;
+}
+.site-header {
+    background-color: #7498D1;
 }
 
 nav {
     background-color: #7498D1;
     color: white;
 }
+
 
 nav h1{
     font-family: roboto mono;
@@ -41,14 +46,17 @@ nav h1 a:hover{
     width: 100px;
 }
 
-nav ul li a{ 
+nav ul li a{  
+   
     height: 50px;
-    padding: 15px;   
+    padding: 15px;
     text-decoration: none;
     font-family: roboto;
     color:#ffffff;
-    font-size: 20px; 
-    margin: 0 .7em;   
+    font-size: 20px;
+    margin: 0 .7em;    
+
+    
 }
 
 
@@ -65,9 +73,13 @@ nav ul li a:hover{
     color: white;
 }
 
+.fas:hover {
+    color:rgb(228, 238, 255);
+
+}
 .about-container{
     background:white;
-    margin: 3em;
+    margin: 3em 3em 6em;
     padding: 3em;
     color: #262B53;
     border: #7498D1;
@@ -89,10 +101,12 @@ nav ul li a:hover{
 }
 
 .about-box img {
-    height: 70vh;
-    /* margin: auto;    
-    display: block; */
+    width: 100%;
+    object-fit: cover;
+  
 }
+
+
 
 .writing {
     min-width: 44vw;
@@ -103,6 +117,13 @@ p{
     padding-right: 40px;
     color: #FFFFFF;
     text-indent: 50px;
+}
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */

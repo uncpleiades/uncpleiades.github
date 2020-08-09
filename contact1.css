@@ -9,16 +9,18 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+
 .wrapper {
-    padding: 0;
+    padding: 0;;
+}
+.site-header {
+    background-color: #7498D1;
 }
 
 nav {
     background-color: #7498D1;
     color: white;
 }
-
-
 
 
 nav h1{
@@ -73,12 +75,13 @@ nav ul li a:hover{
 
 .fas:hover {
     color:rgb(228, 238, 255);
+
 }
 
 form {
     background: white;
     margin: 3em;
-    padding: 3em;
+    padding: 2em;
     color: #262B53;
     font-family: 'Roboto', sans-serif;
     border: #7498D1;

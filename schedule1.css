@@ -7,18 +7,21 @@ body{
     margin-top: 0;
     background-image: url("argyle pattern.png");
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
 }
 
+
 .wrapper {
-    width: 100vw;
-    
+    padding: 0;;
+}
+.site-header {
+    background-color: #7498D1;
 }
 
 nav {
     background-color: #7498D1;
     color: white;
 }
+
 
 nav h1{
     font-family: roboto mono;
@@ -43,14 +46,17 @@ nav h1 a:hover{
     width: 100px;
 }
 
-nav ul li a{ 
+nav ul li a{  
+   
     height: 50px;
-    padding: 15px;   
+    padding: 15px;
     text-decoration: none;
     font-family: roboto;
     color:#ffffff;
-    font-size: 20px; 
-    margin: 0 .7em;   
+    font-size: 20px;
+    margin: 0 .7em;    
+
+    
 }
 
 
@@ -67,46 +73,59 @@ nav ul li a:hover{
     color: white;
 }
 
-.schedule-container{
-    background:white;
-    min-height: 65.2vh;
+.fas:hover {
+    color:rgb(228, 238, 255);
+
+}
+
+.cardBackground {
+    background-color: white;
     margin: 3em;
-    padding: 3em;
-    color: #262B53;
+    padding: 0 1em 3em;
+  
     border: #7498D1;
     border-style: solid;
     box-shadow: 5px 5px 20px #7498D1;
+
 }
 
-.schedule-container h1 {
+.card {
+    margin: 1em 0;
+    padding: 0;
+    border: none;
+}
+
+.cardHolder {
+    margin: 0;
+    padding: 0;
+    height: 250px;
+    width: 250px;
+}
+
+.pic {
+    width: 100%;
+
+}
+
+
+
+
+.scheduleTitle {
     text-align: center;
     font-family: roboto mono;
     color:  #262B53;
-
+    align-self: center; 
+    margin: .7em 0;
 }
 
-.schedule-container h2{
-    text-align: center;
-    
-    font-family: 'Roboto', sans-serif;
-    font-size: 2em;
+.scheduleText {
+    font-size: 1.4em;
     color:  #262B53;
-    margin: 10px 0 30px; 
-}
-.schedule-container p {
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
 }
 
-.schedule-container h3 {
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
-    color:  #262B53;
-    margin: 40px 0 15px;
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
-.schedule-column {
-    margin: 0em;
-    background-color: white;
-}
-

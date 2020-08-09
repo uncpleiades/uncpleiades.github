@@ -7,6 +7,7 @@ body{
     margin-top: 0;
     background-image: url("argyle pattern.png");
     font-family: 'Roboto', sans-serif;
+    
 }
 
 
@@ -27,6 +28,7 @@ nav h1{
     font-family: roboto mono;
     font-size: 2em;
     color: white;
+
 }
 
 nav h1 a{
@@ -77,39 +79,50 @@ nav ul li a:hover{
     color:rgb(228, 238, 255);
 
 }
-
-.cardBackground {
-    background-color: white;
-    margin: 3em;
-    padding: 0 1em 1em;
-    border: #7498D1;
-    border-style: solid;
-    box-shadow: 5px 5px 20px #7498D1;
-}
-
-.card {
-    margin: 1em 0;
-    padding: 0;
-    border: none;
-}
-
-.cardHolder {
-    margin: 0;
-    padding: 0;
-    height: 250px;
-    width: 250px;
-}
-
-.pic {
+.jumbotron {
     width: 100%;
-    cursor: auto;
+    /* margin: 20px; */
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(IMG_3216.JPG);
+    background-position: 35% 50%;
+    border: 1em white;
+    border-style: solid;
 }
-
-
-.photoTitle {
-    text-align: center;
+.jumbotron h1 {
+    color: #7498D1;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: white;
+    font-size: 3em;
     font-family: roboto mono;
-    color:  #262B53;
-    align-self: center; 
-    margin: .7em 0;
+    font-display: large;
+    margin: .1em;
+    padding: 0;
 }
+
+
+footer {
+    position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .about-container {
+        padding: 1.5em 1em;
+    }
+    p{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .about-box img {
+        height: 50vh;
+        /* margin: auto;    
+        display: block; */
+    }
+
+  }
