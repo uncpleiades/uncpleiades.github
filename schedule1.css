@@ -80,7 +80,7 @@ nav ul li a:hover{
 
 .cardBackground {
     background-color: white;
-    margin: 3em;
+    margin: 3em 3em 8em;
     padding: 0 1em 3em;
   
     border: #7498D1;
@@ -118,9 +118,20 @@ nav ul li a:hover{
     margin: .7em 0;
 }
 
-.scheduleText {
+h2 {
+    font-size: 1.9em;
+    color:  #262B53;
+}
+
+h3 {
     font-size: 1.4em;
     color:  #262B53;
+}
+
+p {
+    font-size: 1em;
+    color:  #262B53;
+    text-align: center;
 }
 
 footer {

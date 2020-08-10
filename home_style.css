@@ -77,7 +77,7 @@ nav ul li a:hover{
 .jumbotron {
     width: 100%;
     /* margin: 20px; */
-    height: 100vh;
+    height: 60vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(home_background.jpg);
