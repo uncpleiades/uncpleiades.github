@@ -12,7 +12,8 @@ body{
 
 
 .wrapper {
-    padding: 0;;
+    padding: 0;
+    
 }
 .site-header {
     background-color: #7498D1;
@@ -82,15 +83,16 @@ nav ul li a:hover{
 .jumbotron {
     width: 100%;
     /* margin: 20px; */
-    height: 100vh;
+    height: calc(100vh - 146px);
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(IMG_3216.JPG);
-    background-position: 35% 50%;
-    border: 1em white;
+    background-position: 35% 30%;
+    border: 10px white;
     border-style: solid;
     padding: 3em;
-    margin-bottom: 4em;
+    margin: 0;
+   
 }
 .jumbotron h1 {
     color: #7498D1;
@@ -120,12 +122,6 @@ button:hover {
 }
 
 
-footer {
-    position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
