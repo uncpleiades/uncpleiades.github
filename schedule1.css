@@ -80,7 +80,7 @@ nav ul li a:hover{
 
 .cardBackground {
     background-color: white;
-    margin: 3em 3em 8em;
+    margin: 3em 3em 3em;
     padding: 0 1em 3em;
   
     border: #7498D1;
@@ -134,9 +134,17 @@ p {
     text-align: center;
 }
 
-footer {
-    position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
+
+button {
+    background-color:#7498D1;
+    color: white;
+    font-family: roboto mono;
+    height: 50px;
+    
+    
+}
+
+button:hover {
+    background-color: #262B53;
+    
 }

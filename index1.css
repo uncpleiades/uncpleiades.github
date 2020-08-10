@@ -89,6 +89,8 @@ nav ul li a:hover{
     background-position: 35% 50%;
     border: 1em white;
     border-style: solid;
+    padding: 3em;
+    margin-bottom: 4em;
 }
 .jumbotron h1 {
     color: #7498D1;
@@ -97,8 +99,24 @@ nav ul li a:hover{
     font-size: 3em;
     font-family: roboto mono;
     font-display: large;
-    margin: .1em;
+    margin: 0;
     padding: 0;
+}
+
+
+button {
+    background-color:#7498D1;
+    margin-top: 1em;
+    color: white;
+    font-family: roboto mono;
+    height: 50px;
+    
+    
+}
+
+button:hover {
+    background-color: #262B53;
+    
 }
 
 

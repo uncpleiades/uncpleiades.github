@@ -97,7 +97,7 @@ form h1 {
 
 
 form button {
-    background-color:#262B53;
+    background-color:#7498D1;
     margin-top: 1em;
     color: white;
     font-family: roboto mono;
@@ -113,7 +113,7 @@ form label {
 }
 
 form button:hover {
-    background-color: #7498D1;
+    background-color: #262B53;
     
 }
 
@@ -128,3 +128,5 @@ form input::placeholder {
     font-weight: lighter;
     color: #262B53;
 }
+
+

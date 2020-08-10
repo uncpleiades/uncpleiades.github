@@ -91,6 +91,20 @@ nav ul li a:hover{
     font-display: large;
     margin: .1em;
     padding: 0;
+
+    
+}
+
+button {
+    background-color:#262B53;
+    margin-top: 1em;
+    color: white;
+    font-family: roboto mono;
+}
+
+button:hover {
+    background-color: #7498D1;
+    
 }
 
 
