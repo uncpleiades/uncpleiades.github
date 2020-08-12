@@ -24,9 +24,14 @@ nav {
 
 
 nav h1{
-    font-family: roboto mono;
-    font-size: 2em;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 2.5em;
     color: white;
+    margin: 0;
+
 }
 
 nav h1 a{
@@ -51,9 +56,12 @@ nav ul li a{
     height: 50px;
     padding: 15px;
     text-decoration: none;
-    font-family: roboto;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
     color:#ffffff;
-    font-size: 20px;
+    font-size: 1.5em;
     margin: 0 .7em;    
 
     
@@ -71,6 +79,10 @@ nav ul li a:hover{
 
 .fas {
     color: white;
+}
+
+.navbar-toggler {
+    margin: 0;
 }
 
 .fas:hover {
@@ -96,7 +108,10 @@ nav ul li a:hover{
 }
 
 .about-box h1 {
-    font-family: roboto mono;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
     padding: 0 0 20px;
 }
 
@@ -140,6 +155,10 @@ footer {
         height: 50vh;
         /* margin: auto;    
         display: block; */
+    }
+
+    .about-box h1 {
+        text-align: center;
     }
 
   }

@@ -23,10 +23,13 @@ nav {
 
 
 nav h1{
-    font-family: roboto mono;
-    font-size: 2em;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size: 2.5em;
     color: white;
-    font-weight: 500;
+    margin: 0;
 }
 
 nav h1 a{
@@ -51,9 +54,12 @@ nav ul li a{
     height: 50px;
     padding: 15px;
     text-decoration: none;
-    font-family: roboto;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
     color:#ffffff;
-    font-size: 20px;
+    font-size: 1.5em;
     margin: 0 .7em;    
 
     
@@ -71,18 +77,15 @@ nav ul li a:hover{
 
 .fas {
     color: white;
+    
+}
+
+.navbar-toggler {
+    margin: 0;
 }
 
 .fas:hover {
     color:rgb(228, 238, 255);
-}
-
-.rosterTitle {
-    text-align: center;
-    font-family: roboto mono;
-    color:  #262B53;
-    align-self: center; 
-    margin: .7em 0;
 }
 
 
@@ -107,16 +110,18 @@ h2 {
 
 .roster-container h1 {
     text-align: center;
-    font-family: roboto mono;
-    color:  #262B53;
+    font-family: bebas-neue,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
 
 }
 
 .roster-container h2{
     text-align: center;
-    
+    font-size: 1.2em;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.5em;
+    font-weight: lighter;
     color:  #262B53;
     margin: 10px 0 30px; 
 }
