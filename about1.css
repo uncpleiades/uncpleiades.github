@@ -91,7 +91,7 @@ nav ul li a:hover{
 }
 .about-container{
     background:white;
-    margin: 3em 3em 6em;
+    margin: 3em 3em 3em;
     padding: 3em;
     color: #262B53;
     border: #7498D1;
@@ -134,12 +134,7 @@ p{
     text-indent: 50px;
 }
 
-footer {
-    position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-}
+
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
