@@ -144,6 +144,8 @@ button:hover {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-
+    .jumbotron h1 {
+        font-size: 3.3em;
+    }
 
   }
