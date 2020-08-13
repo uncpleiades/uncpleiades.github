@@ -103,8 +103,9 @@ h2 {
     margin: 3em;
     padding: 3em;
     color: #262B53;
-    border: #7498D1;
-    border-style: solid;
+    /* border: #7498D1;
+    border-style: solid; */
+    border-radius: 10px;
     box-shadow: 5px 5px 20px #7498D1;
 }
 
@@ -144,3 +145,4 @@ h2 {
     margin: 0em;
     background-color: white;
 }
+

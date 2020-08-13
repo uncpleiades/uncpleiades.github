@@ -94,8 +94,9 @@ nav ul li a:hover{
     margin: 3em 3em 3em;
     padding: 3em;
     color: #262B53;
-    border: #7498D1;
-    border-style: solid;
+    border-radius: 10px;
+    /* border: #7498D1;
+    border-style: solid; */
     box-shadow: 5px 5px 20px #7498D1;
     
 }
@@ -133,6 +134,8 @@ p{
     color: #FFFFFF;
     text-indent: 50px;
 }
+
+
 
 
 
