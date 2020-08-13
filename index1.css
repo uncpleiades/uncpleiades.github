@@ -95,6 +95,7 @@ nav ul li a:hover{
     width: 100%;
     /* margin: 20px; */
     height: calc(100vh - 146px);
+
     background-repeat: no-repeat;
     background-size: cover;
     background-image: url(IMG_3216.JPG);
@@ -143,18 +144,8 @@ button:hover {
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-    .about-container {
-        padding: 1.5em 1em;
-    }
-    p{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .about-box img {
-        height: 50vh;
-        /* margin: auto;    
-        display: block; */
+    .jumbotron {
+        height: auto;
     }
 
   }
