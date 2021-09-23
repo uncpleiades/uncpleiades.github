@@ -94,7 +94,6 @@ nav ul li a:hover{
     border-radius: 10px;
     /* border: #7498D1;
     border-style: solid; */
-    box-shadow: 5px 5px 20px #7498D1;
 
 }
 
@@ -127,7 +126,7 @@ nav ul li a:hover{
     letter-spacing: 3px;
     color:  #262B53;
     align-self: center; 
-    margin: .7em 0;
+    margin: .7em 0 .5em
 }
 
 h2 {
@@ -164,7 +163,7 @@ button {
     font-weight: 400;
     font-style: normal;
     letter-spacing: 2px;
-    margin-bottom: 1em;
+   
     
 }
 

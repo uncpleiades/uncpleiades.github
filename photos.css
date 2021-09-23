@@ -7,6 +7,7 @@ body{
     margin-top: 0;
     background-image: url("argyle pattern.png");
     font-family: 'Roboto', sans-serif;
+    color: #262b53;
 }
 
 
@@ -94,7 +95,6 @@ nav ul li a:hover{
     /* border: #7498D1;
     border-style: solid; */
     border-radius: 10px;
-    box-shadow: 5px 5px 20px #7498D1;
     
 }
 
@@ -119,6 +119,7 @@ nav ul li a:hover{
 
 .photoTitle {
     text-align: center;
+    color: #262b53;
     font-family: bebas-neue,sans-serif;
     font-weight: 400;
     font-style: normal;
